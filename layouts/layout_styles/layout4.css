@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  .container{
+    padding: 30px;
+    border: 4px solid lightgrey;
+  }
+  .left-wrapper{
+    width: 45%;
+  }
+  .box
+  {
+    
+  }
