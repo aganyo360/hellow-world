@@ -6,17 +6,24 @@
 }
 .container {
   padding: 30px;
-  border: 2px solid lightgrey ;
+  border: 2px solid lightgrey;
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
+  padding:30px;
+}
+.row {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
 }
 .left-wrapper {
   width: 45%;
-  padding: 23px;
+  /* padding: 23px; */
 }
 .right-wrapper {
   width: 45%;
-  padding: 23px;
+
   border: 2px solid lightgrey;
 }
 
@@ -26,7 +33,7 @@
   height: 40px;
   margin-bottom: 10px;
 }
-.smaller-boxes{
+.smaller-boxes {
   display: flex;
   justify-content: space-between;
 }
