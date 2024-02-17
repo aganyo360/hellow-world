@@ -82,12 +82,14 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(107, 240, 240);
+  background-color: rgb(208, 238, 238);
 }
 footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgb(107, 240, 240);
+  padding: 24px 24px 50px 24px;
 }
 .footer-wrapper ul {
   display: flex;
