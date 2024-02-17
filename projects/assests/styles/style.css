@@ -40,7 +40,7 @@ p {
   margin-bottom: 20px;
 }
 
-.introduction button {
+.introduction button, .btn {
   color: white;
   background-color: rgb(25, 185, 185);
   border: 0 solid rgb(23, 170, 170);
@@ -78,7 +78,13 @@ p {
   justify-content: space-evenly;
   align-items: center;
 }
-.contact{
+.contact {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(107, 240, 240);
+}
+.btn{
+  width: auto;
 }
