@@ -90,6 +90,7 @@ footer {
   align-items: center;
   background-color: rgb(107, 240, 240);
   padding: 24px 24px 50px 24px;
+  margin-bottom: 20px;
 }
 .footer-wrapper ul {
   display: flex;
@@ -97,4 +98,11 @@ footer {
   justify-content: center;
   align-items: center;
   margin-right: 20px;
+}
+.nav-links > li{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
